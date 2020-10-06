@@ -96,7 +96,7 @@
       "metadata": {
         "description": "Location of resources that the script is dependent on such as linked templates and DSC modules"
       },
-      "defaultValue": "https://raw.githubusercontent.com/kobidog/sqlfci"
+      "defaultValue": "https://github.com/kobidog/sqlfci/tree/master"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
