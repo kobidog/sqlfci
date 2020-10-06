@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namePrefix": {
+      "value": "dbsdascdhtst2"
+    },
+    "vmSize": {
+      "value": "Standard_D4s_v3"
+    },
+    "vmDiskSize": {
+      "value": 1023
+    },
+    "vmDiskCount": {
+      "value": 2
+    },
+    "existingDomainName": {
+      "value": "bv.net"
+    },
+    "adminUsername": {
+      "value": "Localadmin"
+    },
+    "adminPassword": {
+      "value": "Can5tatter Kurv3"
+    },
+    "svcUsername": {
+      "value": "SvcSql"
+    },
+    "svcPassword": {
+      "value": "Can5tatterKurv3"
+    },
+    "existingVirtualNetworkRGName": {
+      "value": "BrancoVerdeProd"
+    },
+    "existingVirtualNetworkName": {
+      "value": "BrancoVerdeSharedVnet1"
+    },
+    "existingSubnetName": {
+      "value": "BrancoVerdeSharedSubnet1"
+    },
+    "clusterIP": {
+      "value": "10.1.0.10"
+    }
+  }
+}
